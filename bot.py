@@ -7,6 +7,12 @@
 #  \________/  /__\  \  | |_| |   | |   | |_| | | | | | | | | |_|   |   | |   | |_| | | |
 #          /__/    \__\ |_____|   |_|   |_____| |_| |_| |_| |_____|_|   |_|   |_____| |_|
 
+#     .                                                                        .
+#    / \              THIS VERSION OF CAUTOMATOR IS DEPRECATED!!!             / \
+#   / | \        PLEASE UPDATE TO THE NODE.JS VERSION WHERE POSSIBLE!        / | \
+#  /  .  \    You can update at http://github.com/hyperfresh/cautomator     /  .  \
+# /_______\                                                                /_______\ 
+
 info = """
 CAutomator - the custom-built Discord bot, coded in Python
 Copyright (C) 2020 Hyperfresh | https://github.com/Hyperfresh/CAutomator/
@@ -486,6 +492,9 @@ UpdateTime(True)
 print("attempting to start...")
 @client.event
 async def on_ready():
+    print("ATTENTION - THIS VERSION OF CAUTOMATOR IS DEPRECATED!")
+    print("PLEASE UPDATE TO THE NODE.JS VERSION WHERE POSSIBLE!")
+    print("You can update at http://github.com/hyperfresh/cautomator")
     
     await client.change_presence(activity=discord.Game(name='-?'))
     print('We have logged in as {0.user}'.format(client))
