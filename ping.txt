@@ -1,6 +1,0 @@
-PING discord.com (162.159.138.232): 56 data bytes
-64 bytes from 162.159.138.232: icmp_seq=0 ttl=50 time=35.243 ms
-
---- discord.com ping statistics ---
-1 packets transmitted, 1 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 35.243/35.243/35.243/0.000 ms
